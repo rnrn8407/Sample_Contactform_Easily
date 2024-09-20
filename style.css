@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:  'M PLUS Rounded 1c', sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-form{
+    border: solid 2px rgb(120, 103, 183);
+    padding: 20px;
+}
+
+.title{
+    text-align: center;
+    font-size: large;
+    margin-bottom: 30px;
+    border-bottom:solid ;
+}
+form{
+    width: 400px;
+    margin: 0 auto;
+    /* border: solid; */
+}
+
+.item{
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.label{
+    margin-right: 30px;
+    float: left;
+    width: 135px;
+    padding-left: 5px;
+}
+
+.input{
+    float: left;
+    width: 300px;
+}
+
+input[type="text"],
+input[type="email"]{
+    border: solid 1px rgb(86, 114, 142);
+    font-size: 15px;
+    border-radius: 4px;
+    width: 80%;
+}
+
+textarea{
+    border: solid 1px rgb(97, 74, 74);
+    border-radius: 4px;
+    height: 160px;
+    width: 80%px;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.button{
+    text-align: center;
+
+}
+
+input[type="submit"]{
+    box-shadow: 0 5px 0 rgb(116, 108, 108);
+    background-color: rgb(151, 170, 228);
+    font-size: large;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    height: 40px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: rgb(77, 108, 152);
+    color: aliceblue;
+}
+
+input[type="submit"]:active{
+    transform: translateY(3px);
+    box-shadow: 0 2px 0 rgb(116, 108, 108);
+}
